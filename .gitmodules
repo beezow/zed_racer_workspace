@@ -1,0 +1,3 @@
+[submodule "ws/src/zed_racer"]
+	path = ws/src/zed_racer
+	url = git@github.com:beezow/zed_racer.git

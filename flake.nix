@@ -13,25 +13,7 @@
 
  	];
         buildInputs = [
-          pkgs.gst_all_1.gstreamer
-          pkgs.gst_all_1.gst-plugins-base
-          pkgs.gst_all_1.gst-plugins-good
-          pkgs.gst_all_1.gst-plugins-ugly
-          pkgs.v4l-utils
-          (pkgs.mplayer.override{ v4lSupport=true; })
-          pkgs.gobjectIntrospection
-          pkgs.qt5Full
-          (pkgs.python3.withPackages(ps: with ps; [
-            v4l2py
-            tkinter
-            pillow 
-            (opencv4.override { enableGtk3 = true; })
-            pyqt5
-            matplotlib
-            pygobject3
-          ]))
           pkgs.ceres-solver
-          ros.video-stream-opencv
           ros.rosbash
           ros.rqt-reconfigure
           ros.rqt-gui
