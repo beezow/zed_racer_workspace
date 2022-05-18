@@ -4,3 +4,6 @@
 [submodule "ws/src/easycap_driver"]
 	path = ws/src/easycap_driver
 	url = git@github.com:beezow/easycap_ros.git
+[submodule "ws/src/VINS-Mono"]
+	path = ws/src/VINS-Mono
+	url = git@github.com:HKUST-Aerial-Robotics/VINS-Mono.git
