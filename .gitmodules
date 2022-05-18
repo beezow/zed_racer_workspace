@@ -1,3 +1,6 @@
 [submodule "ws/src/zed_racer"]
 	path = ws/src/zed_racer
 	url = git@github.com:beezow/zed_racer.git
+[submodule "ws/src/easycap_driver"]
+	path = ws/src/easycap_driver
+	url = git@github.com:beezow/easycap_ros.git
